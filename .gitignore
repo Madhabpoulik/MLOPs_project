@@ -1,1 +1,7 @@
-
+mlopsenv
+*.pyc
+__pycache__
+logs
+*.egg-info
+artifacts
+data/kaggle.json
