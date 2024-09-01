@@ -1,0 +1,77 @@
+schema: '2.0'
+stages:
+  training:
+    cmd: python3 src/pipelines/training_pipeline.py
+    deps:
+    - path: src/components/data_ingestion.py
+      hash: md5
+      md5: 9ab46c2ec5343e7e050fac4adb50d0ed
+      size: 2245
+    - path: src/components/data_transformation.py
+      hash: md5
+      md5: db75b6adb7550992f33cee3ecea76962
+      size: 4444
+    - path: src/components/model_evaluation.py
+      hash: md5
+      md5: 0cdf5df927c41aaa0e8d88d90a2f2985
+      size: 2899
+    - path: src/components/model_trainer.py
+      hash: md5
+      md5: a34b44dc7cf94ac49adb631034c37e9f
+      size: 2389
+    - path: src/pipelines/training_pipeline.py
+      hash: md5
+      md5: c519fd1faca62dc8237b9b8e579f5bc3
+      size: 2802
+    outs:
+    - path: artifacts/model.pkl
+      hash: md5
+      md5: a9715ad54f07ef38d782b933a51c8da2
+      size: 438958
+    - path: artifacts/preprocessor.pkl
+      hash: md5
+      md5: 93effe85ddf9a107c8b74a6ac3065d9e
+      size: 3108
+    - path: artifacts/raw.csv
+      hash: md5
+      md5: 14ddfc56c931255ee10d3859d0ac4fc0
+      size: 10462804
+    - path: artifacts/test.csv
+      hash: md5
+      md5: 56c8e9b0158928ad33807626b70eb438
+      size: 6428171
+    - path: artifacts/train.csv
+      hash: md5
+      md5: 6bb3890e0bc856c5c6467e0d2bdc1c4b
+      size: 8369884
+    - path: artifacts/validation.csv
+      hash: md5
+      md5: 670c8748030459611277f4d1d8798950
+      size: 2092971
+  prediction:
+    cmd: python3 src/pipelines/prediction_pipeline.py
+    deps:
+    - path: artifacts/model.pkl
+      hash: md5
+      md5: a9715ad54f07ef38d782b933a51c8da2
+      size: 438958
+    - path: artifacts/preprocessor.pkl
+      hash: md5
+      md5: 93effe85ddf9a107c8b74a6ac3065d9e
+      size: 3108
+    - path: src/components/data_transformation.py
+      hash: md5
+      md5: db75b6adb7550992f33cee3ecea76962
+      size: 4444
+    - path: src/components/model_evaluation.py
+      hash: md5
+      md5: 0cdf5df927c41aaa0e8d88d90a2f2985
+      size: 2899
+    - path: src/components/model_trainer.py
+      hash: md5
+      md5: a34b44dc7cf94ac49adb631034c37e9f
+      size: 2389
+    - path: src/pipelines/prediction_pipeline.py
+      hash: md5
+      md5: fb0eb8143cdcd39338704c484f2c36a8
+      size: 1919
