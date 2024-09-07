@@ -1,0 +1,1556 @@
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-08-18T17:42:57.446+0530[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-08-18T17:42:57.446+0530[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-08-18 17:42:57 +0530] [52331] [INFO] Starting gunicorn 20.1.0
+[2024-08-18 17:42:57 +0530] [52331] [INFO] Listening at: http://[::]:8793 (52331)
+[2024-08-18 17:42:57 +0530] [52331] [INFO] Using worker: sync
+[2024-08-18 17:42:57 +0530] [52332] [INFO] Booting worker with pid: 52332
+[[34m2024-08-18T17:42:57.845+0530[0m] {[34mscheduler_job_runner.py:[0m799} INFO[0m - Starting the scheduler[0m
+[[34m2024-08-18T17:42:57.846+0530[0m] {[34mscheduler_job_runner.py:[0m806} INFO[0m - Processing each file at most -1 times[0m
+[2024-08-18 17:42:57 +0530] [52333] [INFO] Booting worker with pid: 52333
+[[34m2024-08-18T17:42:57.855+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 52334[0m
+[[34m2024-08-18T17:42:57.857+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T17:42:57.861+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-18T17:42:57.923+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-18T17:47:58.294+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T17:52:58.700+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T17:57:59.064+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:02:59.453+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:07:59.729+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:12:59.997+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:18:00.264+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:23:00.437+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:28:00.764+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:33:01.023+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:38:01.086+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:43:01.455+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T18:48:01.722+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-18 19:50:13 +0530] [52331] [CRITICAL] WORKER TIMEOUT (pid:52332)
+[2024-08-18 19:50:13 +0530] [52331] [CRITICAL] WORKER TIMEOUT (pid:52333)
+[2024-08-18 19:50:13 +0530] [52332] [INFO] Worker exiting (pid: 52332)
+[2024-08-18 19:50:13 +0530] [52333] [INFO] Worker exiting (pid: 52333)
+[2024-08-18 19:50:13 +0530] [56816] [INFO] Booting worker with pid: 56816
+[2024-08-18 19:50:13 +0530] [56817] [INFO] Booting worker with pid: 56817
+[[34m2024-08-18T19:54:36.063+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T19:59:44.742+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:04:45.314+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:09:45.931+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:14:46.354+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:19:46.888+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:24:47.809+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:29:48.178+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:34:48.577+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:39:48.914+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:44:49.122+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:49:49.435+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:54:50.236+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T20:59:50.886+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:04:51.061+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:09:51.435+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:14:51.508+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:19:52.699+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:24:53.059+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:29:55.014+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:34:55.116+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:39:55.790+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:44:56.156+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:49:56.651+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:54:56.914+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T21:59:57.181+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T22:04:57.514+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T22:09:57.634+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T22:14:57.891+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T22:19:58.241+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T22:24:58.536+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T22:29:58.931+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T22:34:59.329+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-18 22:58:08 +0530] [52331] [CRITICAL] WORKER TIMEOUT (pid:56816)
+[2024-08-18 22:58:08 +0530] [56816] [INFO] Worker exiting (pid: 56816)
+[2024-08-18 22:58:09 +0530] [115913] [INFO] Booting worker with pid: 115913
+[[34m2024-08-18T23:00:11.957+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:05:12.089+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:10:12.498+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:15:12.656+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:20:12.816+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:25:13.188+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:30:13.587+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:35:14.451+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:40:15.381+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:45:15.933+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:50:16.317+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-18T23:55:16.386+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:00:16.783+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:05:17.171+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:10:17.417+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:15:17.903+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:20:18.626+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:25:18.896+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:30:19.352+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:35:19.856+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:40:20.355+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:45:20.968+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:50:21.523+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T00:55:22.068+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:00:22.243+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:05:22.718+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:10:22.891+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:15:23.396+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:20:31.843+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:25:32.082+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:30:32.271+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:35:32.478+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-08-19T01:37:23.704+0530[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-08-19T01:37:23.707+0530[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-08-19 01:37:29 +0530] [183392] [INFO] Starting gunicorn 20.1.0
+[2024-08-19 01:37:29 +0530] [183392] [ERROR] Connection in use: ('::', 8793)
+[2024-08-19 01:37:29 +0530] [183392] [ERROR] Retrying in 1 second.
+[[34m2024-08-19T01:37:30.310+0530[0m] {[34mscheduler_job_runner.py:[0m799} INFO[0m - Starting the scheduler[0m
+[[34m2024-08-19T01:37:30.310+0530[0m] {[34mscheduler_job_runner.py:[0m806} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-08-19T01:37:30.600+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 183397[0m
+[[34m2024-08-19T01:37:30.609+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:37:30.627+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19T01:37:30.718+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-08-19 01:37:30 +0530] [183392] [ERROR] Connection in use: ('::', 8793)
+[2024-08-19 01:37:30 +0530] [183392] [ERROR] Retrying in 1 second.
+[2024-08-19 01:37:31 +0530] [183392] [ERROR] Connection in use: ('::', 8793)
+[2024-08-19 01:37:31 +0530] [183392] [ERROR] Retrying in 1 second.
+[2024-08-19 01:37:32 +0530] [183392] [ERROR] Connection in use: ('::', 8793)
+[2024-08-19 01:37:32 +0530] [183392] [ERROR] Retrying in 1 second.
+[2024-08-19 01:37:33 +0530] [183392] [ERROR] Connection in use: ('::', 8793)
+[2024-08-19 01:37:33 +0530] [183392] [ERROR] Retrying in 1 second.
+[2024-08-19 01:37:34 +0530] [183392] [ERROR] Can't connect to ('::', 8793)
+[[34m2024-08-19T01:40:32.898+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:42:30.970+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19 01:43:19 +0530] [56817] [INFO] Worker exiting (pid: 56817)
+[2024-08-19 01:43:20 +0530] [115913] [INFO] Worker exiting (pid: 115913)
+[2024-08-19 01:43:20 +0530] [52331] [INFO] Handling signal: term
+[2024-08-19 01:43:22 +0530] [52331] [INFO] Shutting down: Master
+[[34m2024-08-19T01:45:33.560+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:47:31.435+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:50:33.781+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:52:31.810+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:55:34.456+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:57:31.927+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-08-19T01:58:42.456+0530[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-08-19T01:58:42.458+0530[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-08-19 01:58:43 +0530] [191738] [INFO] Starting gunicorn 20.1.0
+[2024-08-19 01:58:43 +0530] [191738] [INFO] Listening at: http://[::]:8793 (191738)
+[2024-08-19 01:58:43 +0530] [191738] [INFO] Using worker: sync
+[2024-08-19 01:58:43 +0530] [191739] [INFO] Booting worker with pid: 191739
+[[34m2024-08-19T01:58:43.474+0530[0m] {[34mscheduler_job_runner.py:[0m799} INFO[0m - Starting the scheduler[0m
+[[34m2024-08-19T01:58:43.475+0530[0m] {[34mscheduler_job_runner.py:[0m806} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-08-19T01:58:43.497+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 191740[0m
+[[34m2024-08-19T01:58:43.499+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T01:58:43.504+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19 01:58:43 +0530] [191741] [INFO] Booting worker with pid: 191741
+[2024-08-19T01:58:43.597+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-08-19 01:58:45 +0530] [191738] [INFO] Handling signal: winch
+[2024-08-19 01:58:45 +0530] [191738] [INFO] Handling signal: winch
+[2024-08-19 01:58:45 +0530] [191738] [INFO] Handling signal: winch
+[2024-08-19 01:59:05 +0530] [191738] [INFO] Handling signal: int
+[[34m2024-08-19T01:59:05.699+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 2[0m
+[2024-08-19 01:59:05 +0530] [191739] [INFO] Worker exiting (pid: 191739)
+[2024-08-19 01:59:05 +0530] [191741] [INFO] Worker exiting (pid: 191741)
+[2024-08-19 01:59:05 +0530] [191738] [INFO] Shutting down: Master
+[[34m2024-08-19T01:59:06.736+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 191740. PIDs of all processes in the group: [191740][0m
+[[34m2024-08-19T01:59:06.737+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 191740[0m
+[[34m2024-08-19T01:59:08.888+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 2[0m
+[[34m2024-08-19T01:59:09.076+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 191740. PIDs of all processes in the group: [][0m
+[[34m2024-08-19T01:59:09.077+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 191740[0m
+[[34m2024-08-19T01:59:09.077+0530[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal Signals.SIGTERM to process 191740 as process group is missing.[0m
+[[34m2024-08-19T01:59:09.094+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 191740. PIDs of all processes in the group: [][0m
+[[34m2024-08-19T01:59:09.095+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 191740[0m
+[[34m2024-08-19T01:59:09.095+0530[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal Signals.SIGTERM to process 191740 as process group is missing.[0m
+[[34m2024-08-19T01:59:09.095+0530[0m] {[34mscheduler_job_runner.py:[0m875} INFO[0m - Exited execute loop[0m
+ERROR: You need to initialize the database. Please run `airflow db init`. Make sure the command is run using Airflow version 2.9.3.
+[[34m2024-08-19T02:00:35.190+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+ERROR: You need to initialize the database. Please run `airflow db init`. Make sure the command is run using Airflow version 2.9.3.
+[[34m2024-08-19T02:02:32.210+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+ERROR: You need to initialize the database. Please run `airflow db init`. Make sure the command is run using Airflow version 2.9.3.
+[[34m2024-08-19T02:05:35.654+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-08-19T02:06:21.172+0530[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-08-19T02:06:21.173+0530[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-08-19 02:06:21 +0530] [195418] [INFO] Starting gunicorn 20.1.0
+[2024-08-19 02:06:21 +0530] [195418] [INFO] Listening at: http://[::]:8793 (195418)
+[2024-08-19 02:06:21 +0530] [195418] [INFO] Using worker: sync
+[2024-08-19 02:06:21 +0530] [195419] [INFO] Booting worker with pid: 195419
+[2024-08-19 02:06:21 +0530] [195420] [INFO] Booting worker with pid: 195420
+[[34m2024-08-19T02:06:21.430+0530[0m] {[34mscheduler_job_runner.py:[0m799} INFO[0m - Starting the scheduler[0m
+[[34m2024-08-19T02:06:21.431+0530[0m] {[34mscheduler_job_runner.py:[0m806} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-08-19T02:06:21.439+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 195421[0m
+[[34m2024-08-19T02:06:21.441+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:06:21.444+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19T02:06:21.478+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+Process DagFileProcessor2-Process:
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py", line 6, in <module>
+    from src.pipelines.training_pipeline import TrainingPipeline
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/src/pipelines/training_pipeline.py", line 2, in <module>
+    from src.components.data_transformation import DataTransformation
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/src/components/data_transformation.py", line 10, in <module>
+    from sklearn.impute import SimpleImputer
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sklearn/impute/__init__.py", line 6, in <module>
+    from ._knn import KNNImputer
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sklearn/impute/_knn.py", line 12, in <module>
+    from ..neighbors._base import _get_weights
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sklearn/neighbors/__init__.py", line 15, in <module>
+    from ._nca import NeighborhoodComponentsAnalysis
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sklearn/neighbors/_nca.py", line 23, in <module>
+    from ..decomposition import PCA
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sklearn/decomposition/__init__.py", line 19, in <module>
+    from ._kernel_pca import KernelPCA
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 195468
+[[34m2024-08-19T02:07:33.176+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19 02:08:23 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:08:23 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:08:23 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:08:23 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:08:23 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:08:23 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:08:23 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:08:23 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:08:24 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:08:24 +0530] [195418] [INFO] Handling signal: winch
+[[34m2024-08-19T02:10:36.030+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:11:21.864+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:12:33.573+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:15:36.340+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19 02:15:48 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:15:48 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:15:48 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:15:48 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:15:48 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:15:48 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:15:48 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:15:48 +0530] [195418] [INFO] Handling signal: winch
+[2024-08-19 02:15:48 +0530] [195418] [INFO] Handling signal: winch
+[[34m2024-08-19T02:16:22.145+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19 02:16:25 +0530] [195418] [INFO] Handling signal: int
+[[34m2024-08-19T02:16:25.917+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 2[0m
+[2024-08-19 02:16:26 +0530] [195419] [INFO] Worker exiting (pid: 195419)
+[2024-08-19 02:16:26 +0530] [195420] [INFO] Worker exiting (pid: 195420)
+[2024-08-19 02:16:26 +0530] [195418] [INFO] Shutting down: Master
+[[34m2024-08-19T02:16:26.968+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 195421. PIDs of all processes in the group: [195421][0m
+[[34m2024-08-19T02:16:26.969+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 195421[0m
+[[34m2024-08-19T02:16:31.127+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 2[0m
+[[34m2024-08-19T02:16:32.161+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 195421. PIDs of all processes in the group: [195421][0m
+[[34m2024-08-19T02:16:32.161+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 195421[0m
+[[34m2024-08-19T02:16:32.696+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=195421, status='terminated', exitcode=0, started='02:06:20') (195421) terminated with exit code 0[0m
+[[34m2024-08-19T02:16:32.726+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 195421. PIDs of all processes in the group: [][0m
+[[34m2024-08-19T02:16:32.726+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 195421[0m
+[[34m2024-08-19T02:16:32.727+0530[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal Signals.SIGTERM to process 195421 as process group is missing.[0m
+[[34m2024-08-19T02:16:32.727+0530[0m] {[34mscheduler_job_runner.py:[0m875} INFO[0m - Exited execute loop[0m
+[[34m2024-08-19T02:17:34.060+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-08-19T02:18:18.247+0530[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-08-19T02:18:18.249+0530[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-08-19 02:18:18 +0530] [199564] [INFO] Starting gunicorn 20.1.0
+[2024-08-19 02:18:18 +0530] [199564] [INFO] Listening at: http://[::]:8793 (199564)
+[2024-08-19 02:18:18 +0530] [199564] [INFO] Using worker: sync
+[2024-08-19 02:18:18 +0530] [199565] [INFO] Booting worker with pid: 199565
+[[34m2024-08-19T02:18:18.599+0530[0m] {[34mscheduler_job_runner.py:[0m799} INFO[0m - Starting the scheduler[0m
+[[34m2024-08-19T02:18:18.599+0530[0m] {[34mscheduler_job_runner.py:[0m806} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-08-19T02:18:18.606+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 199566[0m
+[[34m2024-08-19T02:18:18.608+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:18:18.614+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19 02:18:18 +0530] [199567] [INFO] Booting worker with pid: 199567
+[2024-08-19T02:18:18.674+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-08-19 02:20:12 +0530] [199564] [INFO] Handling signal: int
+[[34m2024-08-19T02:20:12.268+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 2[0m
+[2024-08-19 02:20:12 +0530] [199567] [INFO] Worker exiting (pid: 199567)
+[2024-08-19 02:20:12 +0530] [199565] [INFO] Worker exiting (pid: 199565)
+[2024-08-19 02:20:12 +0530] [199564] [INFO] Shutting down: Master
+[[34m2024-08-19T02:20:14.934+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 199566. PIDs of all processes in the group: [199566][0m
+[[34m2024-08-19T02:20:14.935+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 199566[0m
+[[34m2024-08-19T02:20:15.239+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=199566, status='terminated', exitcode=0, started='02:18:17') (199566) terminated with exit code 0[0m
+[[34m2024-08-19T02:20:15.252+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 199566. PIDs of all processes in the group: [][0m
+[[34m2024-08-19T02:20:15.252+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 199566[0m
+[[34m2024-08-19T02:20:15.253+0530[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal Signals.SIGTERM to process 199566 as process group is missing.[0m
+[[34m2024-08-19T02:20:15.253+0530[0m] {[34mscheduler_job_runner.py:[0m875} INFO[0m - Exited execute loop[0m
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-08-19T02:20:30.006+0530[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-08-19T02:20:30.007+0530[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-08-19 02:20:30 +0530] [200416] [INFO] Starting gunicorn 20.1.0
+[2024-08-19 02:20:30 +0530] [200416] [INFO] Listening at: http://[::]:8793 (200416)
+[2024-08-19 02:20:30 +0530] [200416] [INFO] Using worker: sync
+[2024-08-19 02:20:30 +0530] [200417] [INFO] Booting worker with pid: 200417
+[2024-08-19 02:20:30 +0530] [200418] [INFO] Booting worker with pid: 200418
+[[34m2024-08-19T02:20:30.353+0530[0m] {[34mscheduler_job_runner.py:[0m799} INFO[0m - Starting the scheduler[0m
+[[34m2024-08-19T02:20:30.354+0530[0m] {[34mscheduler_job_runner.py:[0m806} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-08-19T02:20:30.360+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 200419[0m
+[[34m2024-08-19T02:20:30.363+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:20:30.367+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19T02:20:30.423+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T02:20:36.745+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19 02:22:29 +0530] [200416] [INFO] Handling signal: int
+[[34m2024-08-19T02:22:29.345+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 2[0m
+[2024-08-19 02:22:29 +0530] [200417] [INFO] Worker exiting (pid: 200417)
+[2024-08-19 02:22:29 +0530] [200418] [INFO] Worker exiting (pid: 200418)
+[2024-08-19 02:22:29 +0530] [200416] [INFO] Shutting down: Master
+[[34m2024-08-19T02:22:30.411+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 200419. PIDs of all processes in the group: [200419][0m
+[[34m2024-08-19T02:22:30.412+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 200419[0m
+[[34m2024-08-19T02:22:31.260+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=200419, status='terminated', exitcode=0, started='02:20:29') (200419) terminated with exit code 0[0m
+[[34m2024-08-19T02:22:31.277+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 200419. PIDs of all processes in the group: [][0m
+[[34m2024-08-19T02:22:31.278+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 200419[0m
+[[34m2024-08-19T02:22:31.278+0530[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal Signals.SIGTERM to process 200419 as process group is missing.[0m
+[[34m2024-08-19T02:22:31.278+0530[0m] {[34mscheduler_job_runner.py:[0m875} INFO[0m - Exited execute loop[0m
+[[34m2024-08-19T02:22:34.459+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-08-19T02:22:46.990+0530[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-08-19T02:22:46.991+0530[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-08-19 02:22:47 +0530] [201251] [INFO] Starting gunicorn 20.1.0
+[2024-08-19 02:22:47 +0530] [201251] [INFO] Listening at: http://[::]:8793 (201251)
+[2024-08-19 02:22:47 +0530] [201251] [INFO] Using worker: sync
+[2024-08-19 02:22:47 +0530] [201252] [INFO] Booting worker with pid: 201252
+[2024-08-19 02:22:47 +0530] [201253] [INFO] Booting worker with pid: 201253
+[[34m2024-08-19T02:22:47.247+0530[0m] {[34mscheduler_job_runner.py:[0m799} INFO[0m - Starting the scheduler[0m
+[[34m2024-08-19T02:22:47.247+0530[0m] {[34mscheduler_job_runner.py:[0m806} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-08-19T02:22:47.253+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 201254[0m
+[[34m2024-08-19T02:22:47.256+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:22:47.260+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19T02:22:47.313+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T02:25:37.496+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:26:52.543+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 2[0m
+[2024-08-19 02:26:52 +0530] [201251] [INFO] Handling signal: int
+[2024-08-19 02:26:52 +0530] [201252] [INFO] Worker exiting (pid: 201252)
+[2024-08-19 02:26:52 +0530] [201253] [INFO] Worker exiting (pid: 201253)
+[2024-08-19 02:26:52 +0530] [201251] [INFO] Shutting down: Master
+[[34m2024-08-19T02:26:53.595+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 201254. PIDs of all processes in the group: [201254][0m
+[[34m2024-08-19T02:26:53.596+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 201254[0m
+[[34m2024-08-19T02:26:54.102+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=201254, status='terminated', exitcode=0, started='02:22:46') (201254) terminated with exit code 0[0m
+[[34m2024-08-19T02:26:54.164+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 201254. PIDs of all processes in the group: [][0m
+[[34m2024-08-19T02:26:54.165+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 201254[0m
+[[34m2024-08-19T02:26:54.168+0530[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal Signals.SIGTERM to process 201254 as process group is missing.[0m
+[[34m2024-08-19T02:26:54.169+0530[0m] {[34mscheduler_job_runner.py:[0m875} INFO[0m - Exited execute loop[0m
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-08-19T02:27:28.167+0530[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-08-19T02:27:28.168+0530[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-08-19 02:27:28 +0530] [202687] [INFO] Starting gunicorn 20.1.0
+[[34m2024-08-19T02:27:28.599+0530[0m] {[34mscheduler_job_runner.py:[0m799} INFO[0m - Starting the scheduler[0m
+[2024-08-19 02:27:28 +0530] [202687] [INFO] Listening at: http://[::]:8793 (202687)
+[2024-08-19 02:27:28 +0530] [202687] [INFO] Using worker: sync
+[[34m2024-08-19T02:27:28.600+0530[0m] {[34mscheduler_job_runner.py:[0m806} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-08-19T02:27:28.606+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 202688[0m
+[2024-08-19 02:27:28 +0530] [202689] [INFO] Booting worker with pid: 202689
+[[34m2024-08-19T02:27:28.609+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:27:28.614+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19 02:27:28 +0530] [202690] [INFO] Booting worker with pid: 202690
+[2024-08-19T02:27:28.660+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T02:27:34.825+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:30:37.980+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19 02:30:54 +0530] [202687] [INFO] Handling signal: int
+[[34m2024-08-19T02:30:54.161+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 2[0m
+[2024-08-19 02:30:54 +0530] [202689] [INFO] Worker exiting (pid: 202689)
+[2024-08-19 02:30:54 +0530] [202690] [INFO] Worker exiting (pid: 202690)
+[2024-08-19 02:30:54 +0530] [202687] [INFO] Shutting down: Master
+[[34m2024-08-19T02:30:55.214+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 202688. PIDs of all processes in the group: [203989, 202688][0m
+[[34m2024-08-19T02:30:55.216+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 202688[0m
+[2024-08-19T02:30:58.079+0530] {process_utils.py:263} INFO - Waiting up to 5 seconds for processes to exit...
+[[34m2024-08-19T02:30:58.121+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=202688, status='terminated', exitcode=0, started='02:27:27') (202688) terminated with exit code 0[0m
+[[34m2024-08-19T02:30:58.122+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=203989, status='terminated', started='02:30:53') (203989) terminated with exit code None[0m
+[[34m2024-08-19T02:30:58.144+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 202688. PIDs of all processes in the group: [][0m
+[[34m2024-08-19T02:30:58.144+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 202688[0m
+[[34m2024-08-19T02:30:58.145+0530[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal Signals.SIGTERM to process 202688 as process group is missing.[0m
+[[34m2024-08-19T02:30:58.145+0530[0m] {[34mscheduler_job_runner.py:[0m875} INFO[0m - Exited execute loop[0m
+[[34m2024-08-19T02:32:35.114+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-08-19T02:33:31.431+0530[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-08-19T02:33:31.432+0530[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-08-19 02:33:31 +0530] [204532] [INFO] Starting gunicorn 20.1.0
+[2024-08-19 02:33:31 +0530] [204532] [INFO] Listening at: http://[::]:8793 (204532)
+[2024-08-19 02:33:31 +0530] [204532] [INFO] Using worker: sync
+[2024-08-19 02:33:31 +0530] [204533] [INFO] Booting worker with pid: 204533
+[2024-08-19 02:33:31 +0530] [204535] [INFO] Booting worker with pid: 204535
+[[34m2024-08-19T02:33:31.827+0530[0m] {[34mscheduler_job_runner.py:[0m799} INFO[0m - Starting the scheduler[0m
+[[34m2024-08-19T02:33:31.828+0530[0m] {[34mscheduler_job_runner.py:[0m806} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-08-19T02:33:31.835+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 204536[0m
+[[34m2024-08-19T02:33:31.837+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:33:31.840+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19T02:33:31.876+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T02:34:33.292+0530[0m] {[34mscheduler_job_runner.py:[0m417} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: gemstone_training_pipeline.data_ingestion manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:34:33.293+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 0/16 running and queued tasks[0m
+[[34m2024-08-19T02:34:33.293+0530[0m] {[34mscheduler_job_runner.py:[0m596} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: gemstone_training_pipeline.data_ingestion manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:34:33.300+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_ingestion', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default[0m
+[[34m2024-08-19T02:34:33.302+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_ingestion', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:34:33.600+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_ingestion', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:34:36.984+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T02:35:07.052+0530[0m] {[34mtimeout.py:[0m68} ERROR[0m - Process timed out, PID: 205199[0m
+[[34m2024-08-19T02:35:28.828+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-08-19T02:35:28.955+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m41} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:35:38.808+0530[0m] {[34mexample_kubernetes_executor.py:[0m39} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:35:40.336+0530[0m] {[34mtask_command.py:[0m426} INFO[0m - Running <TaskInstance: gemstone_training_pipeline.data_ingestion manual__2024-08-18T21:04:30.693494+00:00 [queued]> on host kirin-HP-Notebook[0m
+[[34m2024-08-19T02:35:47.850+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:35:56.033+0530[0m] {[34mscheduler_job_runner.py:[0m689} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_ingestion', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-19T02:35:56.039+0530[0m] {[34mscheduler_job_runner.py:[0m721} INFO[0m - TaskInstance Finished: dag_id=gemstone_training_pipeline, task_id=data_ingestion, run_id=manual__2024-08-18T21:04:30.693494+00:00, map_index=-1, run_start_date=2024-08-18 21:05:42.780926+00:00, run_end_date=2024-08-18 21:05:52.167989+00:00, run_duration=9.387063, state=success, executor_state=success, try_number=1, max_tries=2, job_id=7, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-08-18 21:04:33.294841+00:00, queued_by_job_id=6, pid=206265[0m
+[[34m2024-08-19T02:35:56.050+0530[0m] {[34mmanager.py:[0m285} ERROR[0m - DagFileProcessorManager (PID=204536) last sent a heartbeat 83.84 seconds ago! Restarting it[0m
+[[34m2024-08-19T02:35:56.089+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 204536. PIDs of all processes in the group: [204536][0m
+[[34m2024-08-19T02:35:56.090+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 204536[0m
+[[34m2024-08-19T02:36:01.101+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=204536, status='terminated', exitcode=0, started='02:33:31') (204536) terminated with exit code 0[0m
+[[34m2024-08-19T02:36:01.118+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 206542[0m
+[[34m2024-08-19T02:36:01.223+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19T02:36:01.311+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T02:36:19.814+0530[0m] {[34mscheduler_job_runner.py:[0m417} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:36:19.815+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 0/16 running and queued tasks[0m
+[[34m2024-08-19T02:36:19.817+0530[0m] {[34mscheduler_job_runner.py:[0m596} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:36:19.826+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_transformation', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default[0m
+[[34m2024-08-19T02:36:19.828+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_transformation', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:36:19.955+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_transformation', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:36:40.764+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T02:37:11.002+0530[0m] {[34mtimeout.py:[0m68} ERROR[0m - Process timed out, PID: 206856[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/__main__.py", line 58, in main
+    args.func(args)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 417, in task_run
+    _dag = get_dag(args.subdir, args.dag_id, args.read_from_db)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/cli.py", line 235, in get_dag
+    dagbag = DagBag(first_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py", line 6, in <module>
+    from src.pipelines.training_pipeline import TrainPipeline
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/src/pipelines/training_pipeline.py", line 4, in <module>
+    from src.components.model_evaluation import ModelEvaluation
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/src/components/model_evaluation.py", line 10, in <module>
+    import mlflow
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/__init__.py", line 41, in <module>
+    from mlflow import projects  # pylint: disable=unused-import
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/projects/__init__.py", line 9, in <module>
+    import mlflow.projects.databricks
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/projects/databricks.py", line 12, in <module>
+    from mlflow import tracking
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/tracking/__init__.py", line 20, in <module>
+    from mlflow.tracking.fluent import _EXPERIMENT_ID_ENV_VAR, _EXPERIMENT_NAME_ENV_VAR, _RUN_ID_ENV_VAR
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 22, in <module>
+    from mlflow.tracking.context import registry as context_registry
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/tracking/context/registry.py", line 9, in <module>
+    from mlflow.tracking.context.databricks_cluster_context import DatabricksClusterRunContext
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 206856
+[[34m2024-08-19T02:37:14.917+0530[0m] {[34msequential_executor.py:[0m81} ERROR[0m - Failed to execute task Command '['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_transformation', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py']' returned non-zero exit status 1..[0m
+[[34m2024-08-19T02:37:14.918+0530[0m] {[34mscheduler_job_runner.py:[0m689} INFO[0m - Received executor event with state failed for task instance TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_transformation', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-19T02:37:15.016+0530[0m] {[34mscheduler_job_runner.py:[0m721} INFO[0m - TaskInstance Finished: dag_id=gemstone_training_pipeline, task_id=data_transformation, run_id=manual__2024-08-18T21:04:30.693494+00:00, map_index=-1, run_start_date=None, run_end_date=None, run_duration=None, state=queued, executor_state=failed, try_number=1, max_tries=2, job_id=None, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-08-18 21:06:19.820674+00:00, queued_by_job_id=6, pid=None[0m
+[[34m2024-08-19T02:37:15.018+0530[0m] {[34mtask_context_logger.py:[0m91} ERROR[0m - The executor reported that the task instance <TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:04:30.693494+00:00 [queued]> finished with state failed, but the task instance's state attribute is queued. Learn more: https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#task-state-changed-externally[0m
+[[34m2024-08-19T02:37:15.078+0530[0m] {[34mtaskinstance.py:[0m2907} ERROR[0m - The executor reported that the task instance <TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:04:30.693494+00:00 [queued]> finished with state failed, but the task instance's state attribute is queued. Learn more: https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#task-state-changed-externally[0m
+[[34m2024-08-19T02:37:15.276+0530[0m] {[34mtaskinstance.py:[0m1206} INFO[0m - Marking task as UP_FOR_RETRY. dag_id=gemstone_training_pipeline, task_id=data_transformation, run_id=manual__2024-08-18T21:04:30.693494+00:00, execution_date=20240818T210430, start_date=, end_date=20240818T210715[0m
+[[34m2024-08-19T02:37:15.584+0530[0m] {[34mmanager.py:[0m285} ERROR[0m - DagFileProcessorManager (PID=206542) last sent a heartbeat 56.05 seconds ago! Restarting it[0m
+[[34m2024-08-19T02:37:15.629+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 206542. PIDs of all processes in the group: [206542][0m
+[[34m2024-08-19T02:37:15.631+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 206542[0m
+[[34m2024-08-19T02:37:16.573+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=206542, status='terminated', exitcode=0, started='02:36:00') (206542) terminated with exit code 0[0m
+[[34m2024-08-19T02:37:16.579+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 207737[0m
+[[34m2024-08-19T02:37:16.649+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19T02:37:16.815+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T02:37:35.614+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:38:32.121+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:40:48.322+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:41:57.283+0530[0m] {[34mscheduler_job_runner.py:[0m417} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: gemstone_training_pipeline.data_ingestion manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:41:57.283+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 0/16 running and queued tasks[0m
+[[34m2024-08-19T02:41:57.284+0530[0m] {[34mscheduler_job_runner.py:[0m596} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: gemstone_training_pipeline.data_ingestion manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:41:57.286+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_ingestion', run_id='manual__2024-08-18T21:11:55.812179+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default[0m
+[[34m2024-08-19T02:41:57.286+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_ingestion', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:41:57.379+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_ingestion', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:42:13.374+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T02:42:18.988+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-08-19T02:42:18.990+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m41} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:42:20.319+0530[0m] {[34mexample_kubernetes_executor.py:[0m39} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:42:20.450+0530[0m] {[34mtask_command.py:[0m426} INFO[0m - Running <TaskInstance: gemstone_training_pipeline.data_ingestion manual__2024-08-18T21:11:55.812179+00:00 [queued]> on host kirin-HP-Notebook[0m
+[[34m2024-08-19T02:42:33.166+0530[0m] {[34mscheduler_job_runner.py:[0m689} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_ingestion', run_id='manual__2024-08-18T21:11:55.812179+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-19T02:42:33.200+0530[0m] {[34mscheduler_job_runner.py:[0m721} INFO[0m - TaskInstance Finished: dag_id=gemstone_training_pipeline, task_id=data_ingestion, run_id=manual__2024-08-18T21:11:55.812179+00:00, map_index=-1, run_start_date=2024-08-18 21:12:21.248577+00:00, run_end_date=2024-08-18 21:12:30.800656+00:00, run_duration=9.552079, state=success, executor_state=success, try_number=1, max_tries=2, job_id=8, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-08-18 21:11:57.284740+00:00, queued_by_job_id=6, pid=212394[0m
+[[34m2024-08-19T02:42:36.301+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:42:36.731+0530[0m] {[34mscheduler_job_runner.py:[0m417} INFO[0m - 2 tasks up for execution:
+	<TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>
+	<TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:42:36.734+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 0/16 running and queued tasks[0m
+[[34m2024-08-19T02:42:36.735+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 1/16 running and queued tasks[0m
+[[34m2024-08-19T02:42:36.737+0530[0m] {[34mscheduler_job_runner.py:[0m596} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>
+	<TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:42:36.742+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_transformation', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=2, map_index=-1) to executor with priority 3 and queue default[0m
+[[34m2024-08-19T02:42:36.743+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_transformation', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:42:36.743+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_transformation', run_id='manual__2024-08-18T21:11:55.812179+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default[0m
+[[34m2024-08-19T02:42:36.743+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_transformation', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:42:36.942+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_transformation', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:44:14.344+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T02:44:39.546+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-08-19T02:44:39.547+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m41} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:44:41.583+0530[0m] {[34mexample_kubernetes_executor.py:[0m39} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:44:41.999+0530[0m] {[34mtask_command.py:[0m426} INFO[0m - Running <TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:04:30.693494+00:00 [queued]> on host kirin-HP-Notebook[0m
+[[34m2024-08-19T02:45:10.018+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'data_transformation', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:45:49.485+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:46:02.233+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T02:46:27.340+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-08-19T02:46:27.352+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m41} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:46:29.838+0530[0m] {[34mexample_kubernetes_executor.py:[0m39} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:46:30.122+0530[0m] {[34mtask_command.py:[0m426} INFO[0m - Running <TaskInstance: gemstone_training_pipeline.data_transformation manual__2024-08-18T21:11:55.812179+00:00 [queued]> on host kirin-HP-Notebook[0m
+[[34m2024-08-19T02:47:09.503+0530[0m] {[34mscheduler_job_runner.py:[0m689} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_transformation', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=2, map_index=-1)[0m
+[[34m2024-08-19T02:47:09.521+0530[0m] {[34mscheduler_job_runner.py:[0m689} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='data_transformation', run_id='manual__2024-08-18T21:11:55.812179+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-19T02:47:09.613+0530[0m] {[34mscheduler_job_runner.py:[0m721} INFO[0m - TaskInstance Finished: dag_id=gemstone_training_pipeline, task_id=data_transformation, run_id=manual__2024-08-18T21:04:30.693494+00:00, map_index=-1, run_start_date=2024-08-18 21:14:42.559721+00:00, run_end_date=2024-08-18 21:14:51.404698+00:00, run_duration=8.844977, state=success, executor_state=success, try_number=2, max_tries=2, job_id=9, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-08-18 21:12:36.738519+00:00, queued_by_job_id=6, pid=214510[0m
+[[34m2024-08-19T02:47:09.615+0530[0m] {[34mscheduler_job_runner.py:[0m721} INFO[0m - TaskInstance Finished: dag_id=gemstone_training_pipeline, task_id=data_transformation, run_id=manual__2024-08-18T21:11:55.812179+00:00, map_index=-1, run_start_date=2024-08-18 21:16:31.058381+00:00, run_end_date=2024-08-18 21:16:40.481743+00:00, run_duration=9.423362, state=success, executor_state=success, try_number=1, max_tries=2, job_id=10, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-08-18 21:12:36.738519+00:00, queued_by_job_id=6, pid=216132[0m
+[[34m2024-08-19T02:47:09.628+0530[0m] {[34mmanager.py:[0m285} ERROR[0m - DagFileProcessorManager (PID=207737) last sent a heartbeat 273.31 seconds ago! Restarting it[0m
+[[34m2024-08-19T02:47:09.645+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 207737. PIDs of all processes in the group: [207737][0m
+[[34m2024-08-19T02:47:09.646+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 207737[0m
+[[34m2024-08-19T02:47:17.698+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=207737, status='terminated', exitcode=0, started='02:37:15') (207737) terminated with exit code 0[0m
+[[34m2024-08-19T02:47:17.710+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 216797[0m
+[[34m2024-08-19T02:47:17.831+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[[34m2024-08-19T02:47:18.057+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19T02:47:27.067+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T02:47:36.968+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:47:56.021+0530[0m] {[34mscheduler_job_runner.py:[0m417} INFO[0m - 2 tasks up for execution:
+	<TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>
+	<TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:47:56.021+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 0/16 running and queued tasks[0m
+[[34m2024-08-19T02:47:56.022+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 1/16 running and queued tasks[0m
+[[34m2024-08-19T02:47:56.025+0530[0m] {[34mscheduler_job_runner.py:[0m596} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>
+	<TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:47:56.030+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='model_trainer', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default[0m
+[[34m2024-08-19T02:47:56.031+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_trainer', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:47:56.031+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='model_trainer', run_id='manual__2024-08-18T21:11:55.812179+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default[0m
+[[34m2024-08-19T02:47:56.032+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_trainer', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:47:56.295+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_trainer', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:48:22.075+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T02:48:42.400+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-08-19T02:48:42.401+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m41} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:48:43.716+0530[0m] {[34mexample_kubernetes_executor.py:[0m39} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:48:43.873+0530[0m] {[34mtask_command.py:[0m426} INFO[0m - Running <TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:04:30.693494+00:00 [queued]> on host kirin-HP-Notebook[0m
+[[34m2024-08-19T02:50:20.877+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_trainer', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+Process DagFileProcessor20195-Process:
+Process DagFileProcessor3026-Process:
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/__init__.py", line 141, in <module>
+    from pandas.io.api import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/io/api.py", line 6, in <module>
+    from pandas.io.excel import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/io/excel/__init__.py", line 1, in <module>
+    from pandas.io.excel._base import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1559, in <module>
+    class ExcelFile:
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1609, in ExcelFile
+    from pandas.io.excel._openpyxl import OpenpyxlReader
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 219354
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/__init__.py", line 141, in <module>
+    from pandas.io.api import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/io/api.py", line 6, in <module>
+    from pandas.io.excel import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/io/excel/__init__.py", line 1, in <module>
+    from pandas.io.excel._base import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1559, in <module>
+    class ExcelFile:
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1608, in ExcelFile
+    from pandas.io.excel._odfreader import ODFReader
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 219353
+[[34m2024-08-19T02:50:49.649+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:51:04.688+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T02:51:34.905+0530[0m] {[34mtimeout.py:[0m68} ERROR[0m - Process timed out, PID: 219399[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/__main__.py", line 58, in main
+    args.func(args)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 417, in task_run
+    _dag = get_dag(args.subdir, args.dag_id, args.read_from_db)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/cli.py", line 235, in get_dag
+    dagbag = DagBag(first_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py", line 6, in <module>
+    from src.pipelines.training_pipeline import TrainPipeline
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/src/pipelines/training_pipeline.py", line 4, in <module>
+    from src.components.model_evaluation import ModelEvaluation
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/src/components/model_evaluation.py", line 10, in <module>
+    import mlflow
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/__init__.py", line 41, in <module>
+    from mlflow import projects  # pylint: disable=unused-import
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/projects/__init__.py", line 9, in <module>
+    import mlflow.projects.databricks
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/projects/databricks.py", line 12, in <module>
+    from mlflow import tracking
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/tracking/__init__.py", line 8, in <module>
+    from mlflow.tracking.client import MlflowClient
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/tracking/client.py", line 27, in <module>
+    from mlflow.tracking._model_registry.client import ModelRegistryClient
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/tracking/_model_registry/client.py", line 18, in <module>
+    from mlflow.tracking._model_registry import utils, DEFAULT_AWAIT_MAX_SLEEP_SECONDS
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/tracking/_model_registry/utils.py", line 9, in <module>
+    from mlflow.tracking._tracking_service.utils import (
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/utils.py", line 213, in <module>
+    _tracking_store_registry.register_entrypoints()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/mlflow/tracking/registry.py", line 52, in register_entrypoints
+    for entrypoint in entrypoints.get_group_all(self.group_name):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/entrypoints.py", line 237, in get_group_all
+    for config, distro in iter_files_distros(path=path):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/entrypoints.py", line 190, in iter_files_distros
+    for path in itertools.chain(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/glob.py", line 86, in _iglob
+    for name in glob_in_dir(_join(root_dir, dirname), basename, dir_fd, dironly):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/glob.py", line 101, in _glob0
+    if _lexists(_join(dirname, basename), dir_fd):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/glob.py", line 180, in _lexists
+    return os.path.lexists(pathname)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/posixpath.py", line 177, in lexists
+    os.lstat(path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 219399
+[[34m2024-08-19T02:51:39.816+0530[0m] {[34msequential_executor.py:[0m81} ERROR[0m - Failed to execute task Command '['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_trainer', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py']' returned non-zero exit status 1..[0m
+[[34m2024-08-19T02:51:39.817+0530[0m] {[34mscheduler_job_runner.py:[0m689} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='model_trainer', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-19T02:51:39.818+0530[0m] {[34mscheduler_job_runner.py:[0m689} INFO[0m - Received executor event with state failed for task instance TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='model_trainer', run_id='manual__2024-08-18T21:11:55.812179+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-19T02:51:39.959+0530[0m] {[34mscheduler_job_runner.py:[0m721} INFO[0m - TaskInstance Finished: dag_id=gemstone_training_pipeline, task_id=model_trainer, run_id=manual__2024-08-18T21:04:30.693494+00:00, map_index=-1, run_start_date=2024-08-18 21:18:44.371176+00:00, run_end_date=2024-08-18 21:19:43.822889+00:00, run_duration=59.451713, state=success, executor_state=success, try_number=1, max_tries=2, job_id=11, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-08-18 21:17:56.028975+00:00, queued_by_job_id=6, pid=218107[0m
+[[34m2024-08-19T02:51:39.960+0530[0m] {[34mscheduler_job_runner.py:[0m721} INFO[0m - TaskInstance Finished: dag_id=gemstone_training_pipeline, task_id=model_trainer, run_id=manual__2024-08-18T21:11:55.812179+00:00, map_index=-1, run_start_date=None, run_end_date=None, run_duration=None, state=queued, executor_state=failed, try_number=1, max_tries=2, job_id=None, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-08-18 21:17:56.028975+00:00, queued_by_job_id=6, pid=None[0m
+[[34m2024-08-19T02:51:39.961+0530[0m] {[34mtask_context_logger.py:[0m91} ERROR[0m - The executor reported that the task instance <TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:11:55.812179+00:00 [queued]> finished with state failed, but the task instance's state attribute is queued. Learn more: https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#task-state-changed-externally[0m
+[[34m2024-08-19T02:51:40.062+0530[0m] {[34mtaskinstance.py:[0m2907} ERROR[0m - The executor reported that the task instance <TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:11:55.812179+00:00 [queued]> finished with state failed, but the task instance's state attribute is queued. Learn more: https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#task-state-changed-externally[0m
+[[34m2024-08-19T02:51:40.076+0530[0m] {[34mtaskinstance.py:[0m1206} INFO[0m - Marking task as UP_FOR_RETRY. dag_id=gemstone_training_pipeline, task_id=model_trainer, run_id=manual__2024-08-18T21:11:55.812179+00:00, execution_date=20240818T211155, start_date=, end_date=20240818T212140[0m
+[[34m2024-08-19T02:51:40.492+0530[0m] {[34mmanager.py:[0m285} ERROR[0m - DagFileProcessorManager (PID=216797) last sent a heartbeat 224.80 seconds ago! Restarting it[0m
+[[34m2024-08-19T02:51:40.508+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 216797. PIDs of all processes in the group: [216797][0m
+[[34m2024-08-19T02:51:40.509+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 216797[0m
+[[34m2024-08-19T02:51:50.400+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=216797, status='terminated', exitcode=0, started='02:47:17') (216797) terminated with exit code 0[0m
+[[34m2024-08-19T02:51:50.408+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 220772[0m
+[[34m2024-08-19T02:51:50.501+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19T02:52:02.479+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T02:52:33.075+0530[0m] {[34mscheduler_job_runner.py:[0m417} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: gemstone_training_pipeline.model_evaluation manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:52:33.075+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 0/16 running and queued tasks[0m
+[[34m2024-08-19T02:52:33.076+0530[0m] {[34mscheduler_job_runner.py:[0m596} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: gemstone_training_pipeline.model_evaluation manual__2024-08-18T21:04:30.693494+00:00 [scheduled]>[0m
+[[34m2024-08-19T02:52:33.081+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='model_evaluation', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2024-08-19T02:52:33.082+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_evaluation', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:52:33.452+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_evaluation', 'manual__2024-08-18T21:04:30.693494+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T02:52:38.626+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:53:00.592+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T02:53:24.960+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-08-19T02:53:24.979+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m41} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:53:28.264+0530[0m] {[34mexample_kubernetes_executor.py:[0m39} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T02:53:29.032+0530[0m] {[34mtask_command.py:[0m426} INFO[0m - Running <TaskInstance: gemstone_training_pipeline.model_evaluation manual__2024-08-18T21:04:30.693494+00:00 [queued]> on host kirin-HP-Notebook[0m
+Process DagFileProcessor20312-Process:
+Process DagFileProcessor3141-Process:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/__init__.py", line 48, in <module>
+    from pandas.core.api import (
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/api.py", line 27, in <module>
+    from pandas.core.arrays import Categorical
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow.array import ArrowExtensionArray
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/array.py", line 52, in <module>
+    import pyarrow.compute as pc
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/__init__.py", line 48, in <module>
+    from pandas.core.api import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pyarrow/compute.py", line 18, in <module>
+    from pyarrow._compute import (  # noqa
+  File "pyarrow/_compute.pyx", line 1418, in init pyarrow._compute
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/api.py", line 27, in <module>
+    from pandas.core.arrays import Categorical
+  File "pyarrow/_compute.pyx", line 799, in pyarrow._compute._min_count_doc
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow.array import ArrowExtensionArray
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/array.py", line 52, in <module>
+    import pyarrow.compute as pc
+  File "/home/kirin/.local/lib/python3.10/site-packages/pyarrow/compute.py", line 18, in <module>
+    from pyarrow._compute import (  # noqa
+  File "pyarrow/_compute.pyx", line 1418, in init pyarrow._compute
+  File "pyarrow/_compute.pyx", line 799, in pyarrow._compute._min_count_doc
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 223626
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 223632
+[[34m2024-08-19T02:55:53.361+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T02:57:41.966+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:00:06.540+0530[0m] {[34mscheduler_job_runner.py:[0m689} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='model_evaluation', run_id='manual__2024-08-18T21:04:30.693494+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-19T03:00:06.976+0530[0m] {[34mscheduler_job_runner.py:[0m721} INFO[0m - TaskInstance Finished: dag_id=gemstone_training_pipeline, task_id=model_evaluation, run_id=manual__2024-08-18T21:04:30.693494+00:00, map_index=-1, run_start_date=2024-08-18 21:23:29.807622+00:00, run_end_date=2024-08-18 21:29:02.053264+00:00, run_duration=332.245642, state=success, executor_state=success, try_number=1, max_tries=2, job_id=12, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-08-18 21:22:33.078930+00:00, queued_by_job_id=6, pid=222408[0m
+[[34m2024-08-19T03:00:06.990+0530[0m] {[34mmanager.py:[0m285} ERROR[0m - DagFileProcessorManager (PID=220772) last sent a heartbeat 454.34 seconds ago! Restarting it[0m
+[[34m2024-08-19T03:00:07.011+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 220772. PIDs of all processes in the group: [220772][0m
+[[34m2024-08-19T03:00:07.011+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 220772[0m
+Process DagFileProcessor3185-Process:
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/__init__.py", line 48, in <module>
+    from pandas.core.api import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/api.py", line 27, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow.array import ArrowExtensionArray
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/array.py", line 52, in <module>
+    import pyarrow.compute as pc
+  File "/home/kirin/.local/lib/python3.10/site-packages/pyarrow/compute.py", line 18, in <module>
+    from pyarrow._compute import (  # noqa
+  File "pyarrow/_compute.pyx", line 1418, in init pyarrow._compute
+  File "pyarrow/_compute.pyx", line 799, in pyarrow._compute._min_count_doc
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 224785
+[[34m2024-08-19T03:00:26.005+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=220772, status='terminated', exitcode=0, started='02:51:49') (220772) terminated with exit code 0[0m
+[[34m2024-08-19T03:00:26.044+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 225180[0m
+[[34m2024-08-19T03:00:26.743+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[[34m2024-08-19T03:00:27.551+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+Process DagFileProcessor20353-Process:
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/tseries/holiday.py", line 553, in <module>
+    class USFederalHolidayCalendar(AbstractHolidayCalendar):
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/tseries/holiday.py", line 565, in USFederalHolidayCalendar
+    Holiday(
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/tseries/holiday.py", line 223, in __init__
+    Timestamp(start_date) if start_date is not None else start_date
+  File "pandas/_libs/tslibs/timestamps.pyx", line 1698, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+  File "pandas/_libs/tslibs/conversion.pyx", line 249, in pandas._libs.tslibs.conversion.convert_to_tsobject
+  File "pandas/_libs/tslibs/conversion.pyx", line 517, in pandas._libs.tslibs.conversion._convert_str_to_tsobject
+  File "pandas/_libs/tslibs/conversion.pyx", line 272, in pandas._libs.tslibs.conversion.convert_to_tsobject
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 225005
+[[34m2024-08-19T03:00:53.997+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19T03:00:55.062+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T03:01:48.485+0530[0m] {[34mdagrun.py:[0m850} INFO[0m - Marking run <DagRun gemstone_training_pipeline @ 2024-08-18 21:04:30.693494+00:00: manual__2024-08-18T21:04:30.693494+00:00, state:running, queued_at: 2024-08-18 21:04:31.021068+00:00. externally triggered: True> successful[0m
+[[34m2024-08-19T03:01:48.531+0530[0m] {[34mdagrun.py:[0m901} INFO[0m - DagRun Finished: dag_id=gemstone_training_pipeline, execution_date=2024-08-18 21:04:30.693494+00:00, run_id=manual__2024-08-18T21:04:30.693494+00:00, run_start_date=2024-08-18 21:04:32.268108+00:00, run_end_date=2024-08-18 21:31:48.530162+00:00, run_duration=1636.262054, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-08-11 00:00:00+00:00, data_interval_end=2024-08-18 00:00:00+00:00, dag_hash=41f8e309b374e38d28eb8d8ca1440e1e[0m
+[[34m2024-08-19T03:01:48.695+0530[0m] {[34mscheduler_job_runner.py:[0m417} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T03:01:48.697+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 0/16 running and queued tasks[0m
+[[34m2024-08-19T03:01:48.699+0530[0m] {[34mscheduler_job_runner.py:[0m596} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T03:01:48.710+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='model_trainer', run_id='manual__2024-08-18T21:11:55.812179+00:00', try_number=2, map_index=-1) to executor with priority 2 and queue default[0m
+[[34m2024-08-19T03:01:48.711+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_trainer', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T03:01:48.845+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_trainer', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T03:02:20.920+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T03:02:36.309+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-08-19T03:02:36.310+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m41} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T03:02:39.614+0530[0m] {[34mexample_kubernetes_executor.py:[0m39} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T03:02:39.847+0530[0m] {[34mtask_command.py:[0m426} INFO[0m - Running <TaskInstance: gemstone_training_pipeline.model_trainer manual__2024-08-18T21:11:55.812179+00:00 [queued]> on host kirin-HP-Notebook[0m
+[[34m2024-08-19T03:02:44.360+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:03:41.492+0530[0m] {[34mscheduler_job_runner.py:[0m689} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='model_trainer', run_id='manual__2024-08-18T21:11:55.812179+00:00', try_number=2, map_index=-1)[0m
+[[34m2024-08-19T03:03:41.678+0530[0m] {[34mscheduler_job_runner.py:[0m721} INFO[0m - TaskInstance Finished: dag_id=gemstone_training_pipeline, task_id=model_trainer, run_id=manual__2024-08-18T21:11:55.812179+00:00, map_index=-1, run_start_date=2024-08-18 21:32:40.943503+00:00, run_end_date=2024-08-18 21:33:17.342414+00:00, run_duration=36.398911, state=success, executor_state=success, try_number=2, max_tries=2, job_id=13, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-08-18 21:31:48.702048+00:00, queued_by_job_id=6, pid=226619[0m
+[[34m2024-08-19T03:03:41.690+0530[0m] {[34mmanager.py:[0m285} ERROR[0m - DagFileProcessorManager (PID=225180) last sent a heartbeat 113.50 seconds ago! Restarting it[0m
+[[34m2024-08-19T03:03:41.725+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 225180. PIDs of all processes in the group: [225180][0m
+[[34m2024-08-19T03:03:41.726+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 225180[0m
+Process DagFileProcessor3267-Process:
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/__init__.py", line 48, in <module>
+    from pandas.core.api import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/groupby/generic.py", line 76, in <module>
+    from pandas.core.frame import DataFrame
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 172, in <module>
+    from pandas.core.generic import NDFrame
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 169, in <module>
+    from pandas.core.window import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/window/__init__.py", line 1, in <module>
+    from pandas.core.window.ewm import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/window/ewm.py", line 69, in <module>
+    from pandas.core.window.rolling import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/window/rolling.py", line 56, in <module>
+    from pandas.core._numba import executor
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 226677
+[[34m2024-08-19T03:03:52.344+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=225180, status='terminated', exitcode=0, started='03:00:25') (225180) terminated with exit code 0[0m
+[[34m2024-08-19T03:03:52.350+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 226725[0m
+[[34m2024-08-19T03:03:52.518+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[2024-08-19T03:04:01.171+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-08-19T03:04:23.184+0530[0m] {[34mscheduler_job_runner.py:[0m417} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: gemstone_training_pipeline.model_evaluation manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T03:04:23.185+0530[0m] {[34mscheduler_job_runner.py:[0m480} INFO[0m - DAG gemstone_training_pipeline has 0/16 running and queued tasks[0m
+[[34m2024-08-19T03:04:23.185+0530[0m] {[34mscheduler_job_runner.py:[0m596} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: gemstone_training_pipeline.model_evaluation manual__2024-08-18T21:11:55.812179+00:00 [scheduled]>[0m
+[[34m2024-08-19T03:04:23.191+0530[0m] {[34mscheduler_job_runner.py:[0m639} INFO[0m - Sending TaskInstanceKey(dag_id='gemstone_training_pipeline', task_id='model_evaluation', run_id='manual__2024-08-18T21:11:55.812179+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2024-08-19T03:04:23.192+0530[0m] {[34mbase_executor.py:[0m149} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_evaluation', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T03:04:23.380+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_evaluation', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T03:04:42.936+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T03:04:54.135+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-08-19T03:04:54.137+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m41} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T03:04:55.988+0530[0m] {[34mexample_kubernetes_executor.py:[0m39} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T03:04:56.261+0530[0m] {[34mtask_command.py:[0m426} INFO[0m - Running <TaskInstance: gemstone_training_pipeline.model_evaluation manual__2024-08-18T21:11:55.812179+00:00 [queued]> on host kirin-HP-Notebook[0m
+[[34m2024-08-19T03:05:54.910+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+Process DagFileProcessor20510-Process:
+Process DagFileProcessor3337-Process:
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/__init__.py", line 48, in <module>
+    from pandas.core.api import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/groupby/generic.py", line 76, in <module>
+    from pandas.core.frame import DataFrame
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 172, in <module>
+    from pandas.core.generic import NDFrame
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 131, in <module>
+    from pandas.core import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 68, in <module>
+    from pandas.core.indexes.api import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/indexes/api.py", line 26, in <module>
+    from pandas.core.indexes.datetimes import DatetimeIndex
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 226957
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 833, in process_file
+    dagbag = DagFileProcessor._get_dagbag(file_path)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/processor.py", line 797, in _get_dagbag
+    return DagBag(file_path, include_examples=False)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 152, in __init__
+    self.collect_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 559, in collect_dags
+    found_dags = self.process_file(filepath, only_if_updated=only_if_updated, safe_mode=safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 318, in process_file
+    mods = self._load_modules_from_file(filepath, safe_mode)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 381, in _load_modules_from_file
+    return parse(mod_name, filepath)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py", line 37, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/__init__.py", line 48, in <module>
+    from pandas.core.api import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/groupby/generic.py", line 76, in <module>
+    from pandas.core.frame import DataFrame
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 172, in <module>
+    from pandas.core.generic import NDFrame
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 131, in <module>
+    from pandas.core import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/indexing.py", line 68, in <module>
+    from pandas.core.indexes.api import (
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/indexes/api.py", line 26, in <module>
+    from pandas.core.indexes.datetimes import DatetimeIndex
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/indexes/datetimes.py", line 67, in <module>
+    from pandas.core.indexes.datetimelike import DatetimeTimedeltaMixin
+  File "/home/kirin/.local/lib/python3.10/site-packages/pandas/core/indexes/datetimelike.py", line 66, in <module>
+    from pandas.core.tools.timedeltas import to_timedelta
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.9.3/best-practices.html#reducing-dag-complexity, PID: 226958
+[[34m2024-08-19T03:07:24.631+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 2[0m
+[2024-08-19 03:07:24 +0530] [204532] [INFO] Handling signal: int
+[2024-08-19 03:07:24 +0530] [204535] [INFO] Worker exiting (pid: 204535)
+[2024-08-19 03:07:24 +0530] [204533] [INFO] Worker exiting (pid: 204533)
+[2024-08-19 03:07:25 +0530] [204532] [INFO] Shutting down: Master
+[[34m2024-08-19T03:07:25.790+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 226725. PIDs of all processes in the group: [226725][0m
+[[34m2024-08-19T03:07:25.791+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 226725[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/__main__.py", line 58, in main
+    args.func(args)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 441, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 219, in _run_task_by_selected_method
+    return _run_task_by_local_task_job(args, ti)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 281, in _run_task_by_local_task_job
+    ret = run_job(job=job_runner.job, execute_callable=job_runner._execute)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/jobs/job.py", line 402, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/jobs/job.py", line 431, in execute_job
+    ret = execute_callable()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/jobs/local_task_job_runner.py", line 199, in _execute
+    return_code = self.task_runner.return_code(timeout=max_wait_time)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 151, in return_code
+    self._rc = self.process.wait(timeout=timeout)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/psutil/__init__.py", line 1268, in wait
+    self._exitcode = self._proc.wait(timeout)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/psutil/_pslinux.py", line 1661, in wrapper
+    return fun(self, *args, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/psutil/_pslinux.py", line 1869, in wait
+    return _psposix.wait_pid(self.pid, timeout, self._name)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/psutil/_psposix.py", line 132, in wait_pid
+    interval = sleep(interval)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/psutil/_psposix.py", line 110, in sleep
+    _sleep(interval)
+KeyboardInterrupt
+[[34m2024-08-19T03:07:41.995+0530[0m] {[34mprocess_utils.py:[0m80} INFO[0m - Process psutil.Process(pid=226725, status='terminated', exitcode=0, started='03:03:51') (226725) terminated with exit code 0[0m
+[[34m2024-08-19T03:07:41.997+0530[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'gemstone_training_pipeline', 'model_evaluation', 'manual__2024-08-18T21:11:55.812179+00:00', '--local', '--subdir', 'DAGS_FOLDER/training_pipeline.py'][0m
+[[34m2024-08-19T03:07:44.481+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:08:40.253+0530[0m] {[34mdagbag.py:[0m545} INFO[0m - Filling up the DagBag from /home/kirin/Documents/MLOPsProjects/MLOPs_project/airflow/dags/training_pipeline.py[0m
+[[34m2024-08-19T03:08:59.831+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-08-19T03:08:59.832+0530[0m] {[34mexample_local_kubernetes_executor.py:[0m41} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T03:09:00.911+0530[0m] {[34mexample_kubernetes_executor.py:[0m39} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-08-19T03:09:01.379+0530[0m] {[34mtask_command.py:[0m426} INFO[0m - Running <TaskInstance: gemstone_training_pipeline.model_evaluation manual__2024-08-18T21:11:55.812179+00:00 [up_for_retry]> on host kirin-HP-Notebook[0m
+[[34m2024-08-19T03:09:03.602+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 226725. PIDs of all processes in the group: [][0m
+[[34m2024-08-19T03:09:03.603+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 226725[0m
+[[34m2024-08-19T03:09:03.603+0530[0m] {[34mprocess_utils.py:[0m101} INFO[0m - Sending the signal Signals.SIGTERM to process 226725 as process group is missing.[0m
+[[34m2024-08-19T03:09:03.603+0530[0m] {[34mscheduler_job_runner.py:[0m875} INFO[0m - Exited execute loop[0m
+[[34m2024-08-19T03:10:55.298+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:12:44.967+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:15:55.582+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:17:45.532+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:20:55.970+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:22:46.246+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:25:56.144+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:27:46.519+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:30:56.321+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:32:46.675+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:35:56.775+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:37:46.921+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:40:56.954+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:42:47.312+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:45:57.320+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:47:47.430+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:50:57.771+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:52:47.540+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:55:57.935+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T03:57:47.726+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:00:58.451+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:02:48.077+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:05:58.720+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:07:48.446+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:10:58.941+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:12:48.804+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:15:59.056+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:17:49.068+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:20:59.559+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T04:22:49.329+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19T10:35:16.014+0530] {manager.py:524} INFO - DAG example_sensor_decorator is missing and will be deactivated.
+[2024-08-19T10:35:16.032+0530] {manager.py:536} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2024-08-19T10:35:16.645+0530] {manager.py:540} INFO - Deleted DAG example_sensor_decorator in serialized_dag table
+[2024-08-19T10:35:16.663+0530] {manager.py:524} INFO - DAG example_trigger_controller_dag is missing and will be deactivated.
+[2024-08-19T10:35:16.680+0530] {manager.py:536} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2024-08-19T10:35:17.121+0530] {manager.py:540} INFO - Deleted DAG example_trigger_controller_dag in serialized_dag table
+[[34m2024-08-19T10:37:16.281+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T10:39:05.820+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T10:42:46.025+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T10:44:06.856+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T10:47:47.315+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T10:49:08.430+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T10:52:47.851+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T10:54:09.372+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T10:57:50.488+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T10:59:11.366+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:02:51.369+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:04:12.173+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:07:51.733+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:09:12.540+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:12:52.443+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:14:12.941+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:17:52.552+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:19:13.734+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:22:52.689+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:24:13.987+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:27:53.152+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:29:14.377+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:32:53.516+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:34:14.491+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:37:53.888+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:39:14.972+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:42:54.281+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:44:15.426+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:47:54.676+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:49:15.896+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:52:54.817+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:54:16.378+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:57:55.159+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T11:59:16.868+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:02:55.657+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:04:17.342+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:07:56.209+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:09:17.729+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:12:56.594+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:14:18.182+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:17:56.864+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:19:19.398+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:22:57.384+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T12:24:19.570+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-08-19T13:00:56.341+0530] {manager.py:524} INFO - DAG example_task_group is missing and will be deactivated.
+[2024-08-19T13:00:56.345+0530] {manager.py:536} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2024-08-19T13:00:57.539+0530] {manager.py:540} INFO - Deleted DAG example_task_group in serialized_dag table
+[[34m2024-08-19T13:03:33.884+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:04:56.036+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:08:35.235+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:09:57.113+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:13:35.836+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:14:57.612+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:18:36.452+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:19:57.969+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:23:36.778+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:24:58.887+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:28:37.229+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:30:00.085+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:33:37.823+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:35:01.616+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:38:38.665+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:40:02.999+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:43:39.722+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:45:03.478+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:48:40.239+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:50:04.060+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:53:40.479+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:55:04.537+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T13:58:40.655+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:00:04.566+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:03:40.906+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:05:05.044+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:08:41.707+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:10:05.551+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:13:41.824+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:15:05.751+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:18:42.255+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:20:06.118+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:23:42.649+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:25:06.705+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:28:43.067+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:30:06.788+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:33:43.379+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:35:06.980+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:38:43.819+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:40:07.326+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:43:44.187+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:45:07.585+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:48:44.292+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:50:08.336+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:53:44.929+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:55:08.442+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T14:58:44.944+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:00:08.584+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:03:45.440+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:05:08.865+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:08:45.662+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:10:09.129+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:13:46.104+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:15:09.166+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:18:46.343+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:20:09.356+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:23:46.687+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:25:09.838+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:28:47.035+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:30:10.081+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:33:47.431+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:35:10.217+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:38:47.610+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T15:40:11.692+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T19:13:37.827+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-19T19:15:00.608+0530[0m] {[34mscheduler_job_runner.py:[0m1598} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+Process ForkProcess-2:
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 241, in _run_processor_manager
+    processor_manager.start()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 476, in start
+    return self._run_parsing_loop()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 602, in _run_parsing_loop
+    self._scan_stale_dags()
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 486, in _scan_stale_dags
+    DagFileProcessorManager.deactivate_stale_dags(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 513, in deactivate_stale_dags
+    dags_parsed = session.execute(query)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kirin/Documents/MLOPsProjects/MLOPs_project/mlopsenv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT dag.dag_id, dag.fileloc, dag.last_parsed_time 
+FROM dag 
+WHERE dag.is_active = 1]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[[34m2024-08-19T19:17:34.224+0530[0m] {[34mmanager.py:[0m272} WARNING[0m - DagFileProcessorManager (PID=183397) exited with exit code 1 - re-launching[0m
+[[34m2024-08-19T19:17:34.702+0530[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 309675[0m
+[[34m2024-08-19T19:17:39.226+0530[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[[34m2024-08-19T19:18:12.312+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2024-08-19T19:18:12.312+0530[0m] {[34mscheduler_job_runner.py:[0m256} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2024-08-19T19:18:13.337+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 309675. PIDs of all processes in the group: [309675][0m
+[[34m2024-08-19T19:18:13.337+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 309675[0m
+[[34m2024-08-19T19:18:13.355+0530[0m] {[34mprocess_utils.py:[0m132} INFO[0m - Sending Signals.SIGTERM to group 52334. PIDs of all processes in the group: [52334][0m
+[[34m2024-08-19T19:18:13.356+0530[0m] {[34mprocess_utils.py:[0m87} INFO[0m - Sending the signal Signals.SIGTERM to group 52334[0m
+[2024-08-19T19:18:16.115+0530] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.

@@ -1,10 +1,9 @@
+pip==24.2
 pandas
 numpy
 scikit-learn
-seaborn
-matplotlib
 ipykernel
 Flask
-kaggle
 mlflow
-xgboost
+dvc==3.53.2
+apache-airflow==2.10.0

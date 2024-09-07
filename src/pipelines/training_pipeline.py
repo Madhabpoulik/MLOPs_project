@@ -8,7 +8,9 @@ from src.logger.logging import logging
 from src.exception.exception import customException
 
 class TrainPipeline:
-        
+    def __init__(self):
+        pass
+    
     def start_data_ingestion(self):
         try:
             logging.info("Data Ingestion stage started")
